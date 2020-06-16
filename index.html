@@ -19,161 +19,152 @@
 
 
 
-
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body {
-  margin: 0;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+body {margin:0;font-family:Arial}
 
+.topnav {
   overflow: hidden;
-}
-html {
-  overflow:   scroll;
+  background-color: #333;
 }
 
-.sidebar {
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  /*background-color: #f1f1f1;*/
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-}
-/*
-.sidebar a {
+.topnav a {
+  float: left;
   display: block;
-  color: black;
-  padding: 16px;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
+  font-size: 17px;
 }
- 
-.sidebar a.active {
+
+.active {
   background-color: #4CAF50;
   color: white;
 }
 
-.sidebar a:hover:not(.active) {
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
   background-color: #555;
   color: white;
 }
 
-*/
-div.content {
-  margin-left: 200px;
-  padding: 1px 16px;
-  height: 1000px;
-}
-@media screen and (max-width: 700px) {
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  .sidebar a {float: left;}
-  div.content {margin-left: 0;}
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
-@media screen and (max-width: 400px) {
-  .sidebar a {
-    text-align: center;
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
     float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
   }
 }
-
-
-
-
-.side {
-	float: left;
-	font-size: 12px;
-}
-.side h1 {
-	font-size: 16px;
-	margin: 20px 0 50px 5px;
-	padding-top:10px;
-}
-.side h1 a {
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	text-decoration: none;
-	color: #000;
-	display: block;
-}
-
-.side h1 a:hover, #side h1 a:focus{
-	color:#C6A8B4;
-}
-
-
-
-.wrapper {
-	width: 1000px;
-	height: auto;
-	margin: 0 auto;
-	overflow: hidden;
-	position: relative;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
-.footer2 {
- position:fixed;
- bottom:0;
- left:0;
-}
-
-
-
-
 </style>
-
-<script>
-    function resizeIframe(obj) {
-      obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
-    }
-  </script>
 </head>
 <body>
-  
-<div class="sidebar">
-    <h1><a href="index.html" style="text-decoration: none;font-size: 16px;text-align: right;color: #000;">&nbsp;&nbsp;&nbsp;Ila Firouzabadi</a></h1>
- 
-    
-        <div id="side">          
-            <div id='cssmenu'>
-                <ul>
-                            <li><a href="#">Installation Sculpture</a>
-                                <ul>
-                                <li><a href="beak.html" target="iframe_a">The Beaks</a></li>
-                                <li><a href="sans.html" target="iframe_a">Sans titre</a></li>
-                                <li><a href="bathtub.html" target="iframe_a">The White Bathtub</a></li>
-                                <li><a href="october.html" target="iframe_a">8 october 2009</a></li>
-                                <li><a href="yellow.html" target="iframe_a">The Yellow Horse</a></li>
-                                <li><a href="green.html" target="iframe_a">The Green Head</a></li>
-                                <li><a href="fetus.html" target="iframe_a">Fetus</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Installation Video</a>
-                                <ul>
-                                <li><a href="sea.html" target="iframe_a">The Sea Smiles from Far Off. Teeth of Foam. Lips of Sky.</a></li>
-                                <li><a href="foreign.html" target="iframe_a">There Is No Foreign Land</a></li>
-                                <li><a href="https://player.vimeo.com/video/142753956?title=0&byline=0&portrait=0" title="Payam Mofidi and Ila Firouzabadi Exhibition Documentation, MAI, 2015"  target="iframe_a">Exhibition Video 2015</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="drawings.html" target="iframe_a">Drawings</a></li>
-                            <li><a href="news.html" target="iframe_a">News</a></li>
-                            <li><a href="about.html" target="iframe_a">About</a></li>
-                            <li><a href="contact.html" target="iframe_a">Contact</a></li>
-                </ul>      
-            </div>
 
+<div id="wrapper">
+    <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <div class="dropdown">
+        <button class="dropbtn">Dropdown 
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
         </div>
-</div>
+    </div> 
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
 
-<div class="content">
-    <iframe frameborder="0" style="overflow:hidden;width:100%" height="90%" width="100%" src="centerindex.html" name="iframe_a"  onload="resizeIframe(this)" ></iframe>
+    <div style="padding-left:16px">
+    <h2>Responsive Topnav with Dropdown</h2>
+    <p>Resize the browser window to see how it works.</p>
+    <p>Hover over the dropdown button to open the dropdown menu.</p>
+    </div>
 </div>
-
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
 </body>
 </html>
