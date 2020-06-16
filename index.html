@@ -1,0 +1,179 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Ila Firouzabadi</title>
+
+<link href="css/styles_index.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<link rel="stylesheet" href="js/fancy/source/jquery.fancybox.css"/>
+<script type="text/javascript" src="js/fancy/source/jquery.fancybox.pack.js"></script>
+
+<link href="styles.css" rel="stylesheet">
+<script src="script.js"></script>
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  margin: 0;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+  overflow: hidden;
+}
+html {
+  overflow:   scroll;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  /*background-color: #f1f1f1;*/
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+/*
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+*/
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+
+
+
+.side {
+	float: left;
+	font-size: 12px;
+}
+.side h1 {
+	font-size: 16px;
+	margin: 20px 0 50px 5px;
+	padding-top:10px;
+}
+.side h1 a {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-decoration: none;
+	color: #000;
+	display: block;
+}
+
+.side h1 a:hover, #side h1 a:focus{
+	color:#C6A8B4;
+}
+
+
+
+.wrapper {
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.footer2 {
+ position:fixed;
+ bottom:0;
+ left:0;
+}
+
+
+
+
+</style>
+
+<script>
+    function resizeIframe(obj) {
+      obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+    }
+  </script>
+</head>
+<body>
+  
+<div class="sidebar">
+    <h1><a href="index.html" style="text-decoration: none;font-size: 16px;text-align: right;color: #000;">&nbsp;&nbsp;&nbsp;Ila Firouzabadi</a></h1>
+ 
+    
+        <div id="side">          
+            <div id='cssmenu'>
+                <ul>
+                            <li><a href="#">Installation Sculpture</a>
+                                <ul>
+                                <li><a href="beak.html" target="iframe_a">The Beaks</a></li>
+                                <li><a href="sans.html" target="iframe_a">Sans titre</a></li>
+                                <li><a href="bathtub.html" target="iframe_a">The White Bathtub</a></li>
+                                <li><a href="october.html" target="iframe_a">8 october 2009</a></li>
+                                <li><a href="yellow.html" target="iframe_a">The Yellow Horse</a></li>
+                                <li><a href="green.html" target="iframe_a">The Green Head</a></li>
+                                <li><a href="fetus.html" target="iframe_a">Fetus</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Installation Video</a>
+                                <ul>
+                                <li><a href="sea.html" target="iframe_a">The Sea Smiles from Far Off. Teeth of Foam. Lips of Sky.</a></li>
+                                <li><a href="foreign.html" target="iframe_a">There Is No Foreign Land</a></li>
+                                <li><a href="https://player.vimeo.com/video/142753956?title=0&byline=0&portrait=0" title="Payam Mofidi and Ila Firouzabadi Exhibition Documentation, MAI, 2015"  target="iframe_a">Exhibition Video 2015</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="drawings.html" target="iframe_a">Drawings</a></li>
+                            <li><a href="news.html" target="iframe_a">News</a></li>
+                            <li><a href="about.html" target="iframe_a">About</a></li>
+                            <li><a href="contact.html" target="iframe_a">Contact</a></li>
+                </ul>      
+            </div>
+
+        </div>
+</div>
+
+<div class="content">
+    <iframe frameborder="0" style="overflow:hidden;width:100%" height="90%" width="100%" src="centerindex.html" name="iframe_a"  onload="resizeIframe(this)" ></iframe>
+</div>
+
+
+</body>
+</html>

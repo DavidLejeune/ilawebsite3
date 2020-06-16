@@ -1,0 +1,164 @@
+@charset "UTF-8";
+#wrapper {
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#footer {
+	position: relative;
+	text-align: center;
+	bottom: 6px;
+	font-weight: lighter;
+	padding-top: 55px;
+	font-size: 11px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#main_desc {
+	
+	margin-top: 30px;
+}
+#main_desc p {
+	font-size: 12px;
+}
+#art_work {
+	padding-left: 80px;
+	padding-right: 70px;
+	float: left;
+	width: 650px;
+}
+#art_work p a img {
+	margin: 10px;
+	width: auto;
+	border: thin solid #CCC;
+	}
+#art_work p mov {
+	padding: 0px;
+}
+#art_work h1 {
+	font-size: 12px;
+	text-align: center;
+	padding-top: 10px;
+	
+}
+#art_work h4 {
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -15px;
+}
+#art_work h3 {
+	font-size: 12px;
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight: lighter;
+}
+#main_desc h3 {
+	font-size: 16px;
+	font-style: normal;
+	
+}
+#main_desc h5 {
+	font-size: 9px;
+	font-style: italic;
+	font-weight: normal;
+}
+#art_work #main_img img {
+	display: block;
+	padding-top: 60px;
+	margin: 0 auto;
+}
+#side {
+	width: 190px;
+	float: left;
+	font-size: 12px;
+}
+#side h1 {
+	font-size: 16px;
+	margin: 20px 0 50px 5px;
+	padding-top:10px;
+}
+#side h1 a {
+	text-decoration: none;
+	color: #000;
+	display: block;
+}
+#side h1 a:hover, #side h1 a:focus{
+	color:#C6A8B4;
+}#main_img h6 {
+	text-align: center;
+	font-weight: lighter;
+}
+#art_work h1 {
+	font-size: 14px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#art_work h6 {
+	text-align: center;
+}
+.drawing {
+	display: block;
+	margin-left: 10px;
+	border: thin solid #CCC;
+}
+
+#art_work p a {
+	color: #333;
+	text-decoration: none;
+}
+
+#art_work p a:hover, #art_work p a:focus {
+	color: #C6A8B4;
+}
+#art_work #main_desc h2 {
+	font-size: 16px;
+	color: #000;
+}
+#art_work #main_desc h2 a{
+	font-size: 16px;
+	color: #000;
+	text-decoration: none;
+}
+#art_work #main_desc h6 {
+	font-size: 8px;
+	font-weight: normal;
+	margin-right: 15%;
+	margin-left: 45%;
+	clear: both;
+}
+#art_work #main_desc #mai h6 {
+	font-size: 8px;
+	font-weight: normal;
+	margin-right: 15%;
+	margin-left: 20%;
+	clear: both;
+}
+#art_work #main_desc a img {
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 5%;
+}
+
+#art_work #main_desc #news h2 a:hover, #art_work #main_desc #news h2 a:focus {
+	color: #C6A8B4;
+}
+
+#art_work #main_desc #news h3 {
+	font-size: 12px;
+	text-align: left;
+}
+#art_work #main_desc #news{
+	width: 50%;
+	float: left;
+	padding-left: 15px;
+}
+#art_work #main_desc #mai a img {
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 45%;
+}

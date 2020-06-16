@@ -1,0 +1,304 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201604 will be lost/reset.
+# Last config file used to build this data file was /home/ilaf/tmp/awstats/awstats.ilafirouzabadi.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2011                
+POS_TIME 2689                
+POS_VISITOR 6877                
+POS_DAY 7446                
+POS_DOMAIN 3358                
+POS_LOGIN 3641                
+POS_ROBOT 3796                
+POS_WORMS 4121                
+POS_EMAILSENDER 4252                
+POS_EMAILRECEIVER 4395                
+POS_SESSION 7624                
+POS_SIDER 7823                
+POS_FILETYPES 4530                
+POS_DOWNLOADS 4720                
+POS_OS 4803                
+POS_BROWSER 4979                
+POS_SCREENSIZE 5293                
+POS_UNKNOWNREFERER 5367                
+POS_UNKNOWNREFERERBROWSER 5606                
+POS_ORIGIN 5749                
+POS_SEREFERRALS 5885                
+POS_PAGEREFS 6041                
+POS_SEARCHWORDS 6189                
+POS_KEYWORDS 6341                
+POS_MISC 2353                
+POS_ERRORS 6400                
+POS_CLUSTER 3497                
+POS_SIDER_404 6485                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160501014249 19 2890 11702761895916
+FirstTime 20160425105451
+LastTime 20160429094704
+LastUpdate 20160501051917 19 0 18 0 0
+TotalVisits 18                  
+TotalUnique 12                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 12                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 5265 4 5 1359
+1 0 0 0 3 4 6027
+2 0 0 0 6 9 16163
+3 1 1 915 3 4 3242
+4 0 0 0 0 2 64122
+5 0 0 0 6 13 39276
+6 0 0 0 9 16 207894
+7 12 12 44916 6 11 7934
+8 7 54 6077137 5 7 10712
+9 1 1 915 8 16 19359
+10 15 72 2925506 5 9 1010428
+11 22 56 2170695 9 30 1600285
+12 4 28 2836881 4 12 77745
+13 1 2 229266 5 7 5695
+14 1 2 199042 5 22 847105
+15 33 284 14112487 3 10 210779
+16 0 0 0 0 3 416363
+17 0 0 0 12 21 2171086
+18 1 1 915 9 19 932674
+19 8 72 9041727 1 3 1558
+20 6 55 4957817 1 1 1349
+21 0 0 0 2 5 5988
+22 0 0 0 3 8 77207
+23 1 1 2221 3 4 67635
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+ca 81 514 30678902
+us 30 125 11919708
+ru 2 2 5265
+de 1 1 915
+nl 1 1 915
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+bot[\s_+:,\.\;\/\\-] 82 863863 20160430133944 0
+googlebot 36 50626 20160430234816 0
+googlebot\-image 31 6665128 20160430182450 0
+spider 25 217365 20160430230847 0
+slurp 5 5003 20160429063027 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 85 93399 0 0
+png 18 312741 0 0
+html 115 168850 0 0
+pdf 1 64122 0 0
+jpg 330 41527252 0 0
+js 50 373350 0 0
+gif 44 65991 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/CV_Ila_Firouzabadi.pdf 5 0 320610
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+linuxandroid 1 1
+winlong 1 1
+ios_iphone 78 10
+win7 25 7
+macosx 400 54
+win8.1 3 3
+Unknown 28 28
+ios_ipad 107 11
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 14
+safari7.0 54 7
+safari9.0 79 9
+chrome39.0.2171.65 2 2
+mozilla 11 11
+firefox44.0 1 1
+chrome17.0.1025.133 1 1
+firefox3.6.3 1 1
+safari9.1 123 15
+chrome50.0.2661.86 108 13
+chrome49.0.2623.112 41 10
+chrome43.0.2357.132 25 7
+Unknown 17 17
+safari 52 5
+firefox45.0 128 16
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_(compatible;_Dataprovider/6.92;__https://www.dataprovider.com/) 20160426070159
+Mojolicious_(Perl) 20160428033945
+semanticbot 20160428115139
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Mojolicious_(Perl) 20160428033945
+semanticbot 20160428115139
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 42 42
+From1 0 0
+From2 3 13
+From3 0 0
+From4 70 588
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 3 13
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 54 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 3
+/wp-content/plugins/revslider/js/rev_admin.js 1 -
+/robots.txt 52 -
+/wordpress/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 12
+198.48.204.8 41 292 12439244 20160426104058
+13.92.186.148 16 16 19677 20160428115139
+45.72.162.124 13 108 11897810 20160428123910
+99.240.107.105 12 106 10188112 20160426083221
+192.99.44.141 12 12 44916 20160426070200
+142.150.200.196 7 25 1955454 20160425105517
+99.230.50.168 6 55 4957817 20160426200103
+24.114.58.188 3 24 1093359 20160425183023
+91.79.16.161 2 2 5265 20160428001502
+46.166.138.150 1 1 915 20160429094704
+54.160.40.119 1 1 2221 20160427231412
+85.214.245.199 1 1 915 20160428033945
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 5
+20160425 48 346 18628980 7
+20160426 33 168 12049922 4
+20160427 9 73 9043948 2
+20160428 24 55 2881940 4
+20160429 1 1 915 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 2
+30s-2mn 2
+15mn-30mn 1
+0s-30s 9
+2mn-5mn 2
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 14
+/ 29 33408 16 8
+/october.html 13 16280 0 1
+/sans.html 11 14833 0 0
+/drawings.html 9 14101 0 3
+/yellow.html 8 11369 0 0
+/green.html 7 7709 0 1
+/about.html 6 11090 0 2
+/bathtub.html 6 6878 1 1
+/beak.html 6 7062 0 0
+/contact.html 6 11220 0 1
+/fetus.html 4 4202 1 1
+/sea.html 4 12595 0 0
+/news.html 3 4047 0 0
+/foreign.html 3 14056 0 0
+END_SIDER

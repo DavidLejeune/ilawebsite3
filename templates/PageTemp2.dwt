@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Ila Firouzabadi</title>
+<!-- TemplateEndEditable -->
+<link href="../css/styles_work.css" rel="stylesheet" type="text/css">
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<link rel="stylesheet" href="../js/fancy/source/jquery.fancybox.css"/>
+<script type="text/javascript" src="../js/fancy/source/jquery.fancybox.pack.js"></script>
+
+<link href="../styles.css" rel="stylesheet">
+<script src="../script.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+<div id="side">
+<h1><a href="../index.html">Ila Firouzabadi</a></h1>
+<div id='cssmenu'>
+<ul>
+  <li><a href="#">Installation Sculpture</a>
+    <ul>
+      <li><a href="../beak.html">The Beaks</a></li>
+      <li><a href="../sans.html">Sans titre</a></li>
+      <li><a href="../bathtub.html">The White Bathtub</a></li>
+      <li><a href="../october.html">8 october 2009</a></li>
+      <li><a href="../yellow.html">The Yellow Horse</a></li>
+      <li><a href="../green.html">The Green Head</a></li>
+      <li><a href="../fetus.html">Fetus</a></li>
+    </ul>
+  </li>
+  <li><a href="#">Installation Video</a>
+    <ul>
+      <li><a href="../sea.html">The Sea Smiles from Far Off. Teeth of Foam. Lips of Sky.</a></li>
+      <li><a href="../foreign.html">There Is No Foreign Land</a></li>
+      <li><a class="fancybox fancybox.iframe" href="https://player.vimeo.com/video/142753956?title=0&byline=0&portrait=0" title="Payam Mofidi and Ila Firouzabadi Exhibition Documentation, MAI, 2015">Exhibition Video</a></li>
+    </ul>
+</li>
+  <li><a href="../drawings.html">Drawings</a></li>
+  <li><a href="../news.html">News</a></li>
+  <li><a href="../about.html">About</a></li>
+  <li><a href="../contact.html">Contact</a></li>
+</ul>
+</div>
+</div>
+<!-- TemplateBeginEditable name="work_area" -->
+<div id="art_work">
+  <h1>The Sea Smiles from Far Off. Teeth of Foam. Lips of Sky (2013)</h1>
+  <div id="main_img"><img src="../images/sea/sea_vid_t.png" width="600" height="336"></div>
+  <p> 
+  <a class="fancybox" rel="sea" title="The Sea Smiles from Far Off. Teeth of Foam. Lips of Sky" href="../images/sea/01.jpg"><img src="../images/sea/01_t.jpg" width="100" height="100"></a> 
+  <a class="fancybox" rel="sea" title="The Sea Smiles from Far Off. Teeth of Foam. Lips of Sky" href="../images/sea/02.jpg"><img src="../images/sea/02_t.jpg" width="100" height="100"></a> 
+  <a class="fancybox" rel="sea" title="The Sea Smiles from Far Off. Teeth of Foam. Lips of Sky" href="../images/sea/03.jpg"><img src="../images/sea/03_t.jpg" width="100" height="100"></a> 
+  <a class="fancybox" rel="sea" title="The Sea Smiles from Far Off. Teeth of Foam. Lips of Sky" href="../images/sea/04.jpg"><img src="../images/sea/04_t.jpg" width="100" height="100"></a> 
+  <a class="fancybox" rel="sea" title="The Sea Smiles from Far Off. Teeth of Foam. Lips of Sky" href="../images/sea/05.jpg"><img src="../images/sea/05_t.jpg" width="100" height="100"></a> 
+  <a class="fancybox" rel="sea" title="The Sea Smiles from Far Off. Teeth of Foam. Lips of Sky" href="../images/sea/06.jpg"><img src="../images/sea/06_t.jpg" width="100" height="100"></a> 
+  <a class="fancybox" rel="sea" title="The Sea Smiles from Far Off. Teeth of Foam. Lips of Sky" href="../images/sea/07.jpg"><img src="../images/sea/07_t.jpg" width="100" height="100"></a> 
+  <a class="fancybox" rel="sea" title="The Sea Smiles from Far Off. Teeth of Foam. Lips of Sky" href="../images/sea/08.jpg"><img src="../images/sea/08_t.jpg" width="100" height="100"></a> 
+  <a class="fancybox" rel="sea" title="The Sea Smiles from Far Off. Teeth of Foam. Lips of Sky" href="../images/sea/09.jpg"><img src="../images/sea/09_t.jpg" width="100" height="100"></a> 
+  <a class="fancybox" rel="sea" title="The Sea Smiles from Far Off. Teeth of Foam. Lips of Sky" href="../images/sea/10.jpg"><img src="../images/sea/10_t.jpg" width="100" height="100"></a> 
+  <a class="fancybox" rel="sea" title="The Sea Smiles from Far Off. Teeth of Foam. Lips of Sky" href="../images/sea/11.jpg"><img src="../images/sea/11_t.jpg" width="100" height="100"></a> 
+  <a class="fancybox" rel="sea" title="The Sea Smiles from Far Off. Teeth of Foam. Lips of Sky" href="../images/sea/12.jpg"><img src="../images/sea/12_t.jpg" width="100" height="100"></a> 
+  <a class="fancybox" rel="sea" title="The Sea Smiles from Far Off. Teeth of Foam. Lips of Sky" href="../images/sea/13.jpg"><img src="../images/sea/13_t.jpg" width="100" height="100"></a> 
+  <a class="fancybox" rel="sea" title="The Sea Smiles from Far Off. Teeth of Foam. Lips of Sky" href="../images/sea/14.jpg"><img src="../images/sea/14_t.jpg" width="100" height="100"></a> 
+  <a class="fancybox" rel="sea" title="The Sea Smiles from Far Off. Teeth of Foam. Lips of Sky" href="../images/sea/15.jpg"><img src="../images/sea/15_t.jpg" width="100" height="100"></a> 
+  <a class="fancybox" rel="sea" title="The Sea Smiles from Far Off. Teeth of Foam. Lips of Sky" href="../images/sea/16.jpg"><img src="../images/sea/16_t.jpg" width="100" height="100"></a> 
+  <a class="fancybox" rel="sea" title="The Sea Smiles from Far Off. Teeth of Foam. Lips of Sky" href="../images/sea/17.jpg"><img src="../images/sea/17_t.jpg" width="100" height="100"></a> 
+  <a class="fancybox" rel="sea" title="The Sea Smiles from Far Off. Teeth of Foam. Lips of Sky" href="../images/sea/18.jpg"><img src="../images/sea/18_t.jpg" width="100" height="100"></a> 
+  <a class="fancybox" rel="sea" title="The Sea Smiles from Far Off. Teeth of Foam. Lips of Sky" href="../images/sea/19.jpg"><img src="../images/sea/19_t.jpg" width="100" height="100"></a> 
+  <a class="fancybox" rel="sea" title="The Sea Smiles from Far Off. Teeth of Foam. Lips of Sky" href="../images/sea/20.jpg"><img src="../images/sea/20_t.jpg" width="100" height="100"></a> 
+  </p>
+  <div id="main_desc">
+    <p>“The sea. smiles from far off. Teeth of foam. Lips of sky.” Is an interactive video installation by Payam Mofidi and Ila Firouzabadi, which deals with the theme of war. Archival images from different countries and video portraits of imaginary characters who have lived through war and are recounting their stories are shown. Shaping a path, the images are projected from the ceiling towards the floor for the public who must make them visible against their hands or a piece of paper, or project them on the wall with a small mirror. These symbolic actions remind of the importance of civilians’ role in wartime as they make visible the misery and bitterness that conflict causes. The public’s participation through the use of their hands highlights the daily presence of war in our lives, and aims to make it more palpable for those who have perhaps never experienced it.</p>
+  </div>
+</div>
+<!-- TemplateEndEditable --><br clear="all" />
+  <div id="footer">
+    <p>&copy;  Copyright Ila Firouzabadi 2017</p>
+</div>
+</div>
+<script type="text/javascript">
+$(document).ready(function() {
+	$(".fancybox").fancybox({
+			width : '50%',
+			height : '50%',
+			openEffect : 'none',
+			closeEffect	: 'none',
+			helpers : {
+				title : {
+    			type : 'outside'
+    		}
+    	}
+		});
+	});
+</script>
+
+</body>
+</html>
